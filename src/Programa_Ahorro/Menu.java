@@ -814,11 +814,20 @@ public class Menu extends javax.swing.JFrame {
             double d7 = (double) modelo.getValueAt(indice,8);
 
             //Declaracion de variables y calculos
-            double total_Semana = d1 + d2 + d3 + d4 + d5 + d6 + d7; //Para total de la semana
+            double total_Semana; 
+            
+            //En caso de ser COP
+            if (moneda.equals("COP")){
+                total_Semana = Math.round(d1 + d2 + d3 + d4 + d5 + d6 + d7); //Para total de la semana
+            } //Fin de if
+            else {
+                total_Semana = Math.round( (d1 + d2 + d3 + d4 + d5 + d6 + d7) * 100) / 100.0;
+            } //Fin de else
+            
             double mayor, menor;
             String dia_mayor = null, dia_menor = null;
-            double listaDias[] = new double[]{d1, d2, d3, d4, d5, d6, d7};
-            String dias [] = new String[] {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"};
+            double listaDias[] = new double[]{d1, d2, d3, d4, d5, d6, d7}; //Array para guardar valores
+            String dias [] = new String[] {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"}; //Array para guardar nombre de dias
             mayor = menor = listaDias[0];
 
             //Iteración para descubrir el numero mayor, menor y dia respectivo para el Frame Semana        
@@ -902,7 +911,16 @@ public class Menu extends javax.swing.JFrame {
                 double d7 = ahorro.getDia_7();
                 
                 //Declaracion de variables y calculos
-                double total_Semana = d1 + d2 + d3 + d4 + d5 + d6 + d7; //Para total de la semana
+                double total_Semana; 
+            
+                //En caso de ser COP
+                if (moneda.equals("COP")){
+                    total_Semana = Math.round(d1 + d2 + d3 + d4 + d5 + d6 + d7); //Para total de la semana
+                } //Fin de if
+                else {
+                    total_Semana = Math.round( (d1 + d2 + d3 + d4 + d5 + d6 + d7) * 100) / 100.0;
+                } //Fin de else
+                
                 double mayor, menor;
                 String dia_mayor = null, dia_menor = null;
                 double listaDias[] = new double[]{d1, d2, d3, d4, d5, d6, d7};
