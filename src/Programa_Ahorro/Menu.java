@@ -13,7 +13,7 @@ import javax.swing.table.TableModel;
 
 public class Menu extends javax.swing.JFrame {
     
-    static Dao<Ahorro, Integer> bdAhorro; //Llamada a la base de datos 
+    static Dao<Ahorro, Integer> bdAhorro; //Para el manejo de la base de datos
     
     public Menu() {
         
@@ -1104,7 +1104,7 @@ public class Menu extends javax.swing.JFrame {
         }
         //</editor-fold>
         
-        //Llamada a archivo y especificacion para manejo de tabla de bd        
+        //Creacion de archivo y conexion a este
         String archivo = "jdbc:h2:./ahorro";
         
         ConnectionSource conn = new JdbcConnectionSource(archivo);
