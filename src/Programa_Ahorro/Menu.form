@@ -120,8 +120,8 @@
                           <Component id="meta_Ahorro" min="-2" pref="169" max="-2" attributes="0"/>
                           <Component id="moneda_Cambio" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="tasa_Efeanu" alignment="0" pref="84" max="32767" attributes="0"/>
-                              <Component id="tiempo_Ahorro" alignment="0" max="32767" attributes="0"/>
+                              <Component id="tiempo_Ahorro" alignment="0" pref="80" max="32767" attributes="0"/>
+                              <Component id="tasa_Efeanu" alignment="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -470,6 +470,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Calibri" size="14" style="0"/>
         </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Ingresar un 0 si no se guarda el dinero en una Cuenta de Ahorro."/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="tiempo_Ahorro">

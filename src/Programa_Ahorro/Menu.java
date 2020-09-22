@@ -156,6 +156,7 @@ public class Menu extends javax.swing.JFrame {
         dia_7.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
 
         tasa_Efeanu.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
+        tasa_Efeanu.setToolTipText("Ingresar un 0 si no se guarda el dinero en una Cuenta de Ahorro.");
 
         tiempo_Ahorro.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
 
@@ -328,8 +329,8 @@ public class Menu extends javax.swing.JFrame {
                             .addComponent(meta_Ahorro, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(moneda_Cambio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(tasa_Efeanu, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
-                                .addComponent(tiempo_Ahorro, javax.swing.GroupLayout.Alignment.LEADING))))
+                                .addComponent(tiempo_Ahorro, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE)
+                                .addComponent(tasa_Efeanu, javax.swing.GroupLayout.Alignment.LEADING))))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(guardar)
                         .addGap(18, 18, 18)
