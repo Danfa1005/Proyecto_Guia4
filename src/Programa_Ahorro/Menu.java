@@ -16,7 +16,7 @@ import javax.swing.table.TableModel;
 
 public class Menu extends javax.swing.JFrame {
     
-    static Dao<Ahorro, Integer> bdAhorro; //Para el manejo de la base de datos
+    static Dao<Ahorro, Integer> bdAhorro; //Base de datos
     
     public Menu() {
         
