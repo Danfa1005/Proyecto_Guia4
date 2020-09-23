@@ -1,5 +1,5 @@
 # Proyecto_Guia4
-Calculadora de Ahorro
+Programa de Ahorro
 
 Base de datos: H2
 
