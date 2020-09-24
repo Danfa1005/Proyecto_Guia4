@@ -3,4 +3,4 @@ Programa de Ahorro
 
 Base de datos: H2
 
-ORMLite
+Sistema de gestión de base de datos: ORMLite
