@@ -1,6 +1,8 @@
-# Proyecto_Guia4
+# Proyecto Guia 4
 Programa de Ahorro
 
-Base de datos: H2
+Interface grafica: Swing.
 
-Sistema de gestión de base de datos: ORMLite
+Base de datos: H2.
+
+Sistema de gestión de base de datos: ORMLite.
